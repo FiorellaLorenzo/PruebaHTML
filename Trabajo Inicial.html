@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiorella Daniela Lorenzo</title>
+<!-- CSS interno para los enlaces -->
+  <style>
+    /* Enlaces no visitados */
+    a:link {
+      color: #4B0082; 
+      text-decoration: none; 
+    }
+
+    /* Enlaces visitados */
+    a:visited {
+      color: pink;
+    }
+
+    /* Enlaces al hacer clic (activos) */
+    a:active {
+      color: blue;
+    }
+
+    /* Enlaces cuando pasas el mouse */
+    a:hover {
+      color: #FF69B4;
+      text-decoration: underline; 
+    }
+  </style>
+</head>
+<body>
+ <div style="text-align: center;">
+  <h1 style="background-color:DarkOrchid;">Fiorella Daniela Lorenzo</h1>
+  <p style="font-size:25px;">
+  Mi nombre es Fiorella pero me dicen Fiore o Fio. Tengo 23 años y vivo en Quilmes.
+</p>
+
+<p style="color:blue; font-size:20px;">
+  Siempre me interesó aprender y explorar distintos campos, por eso sabía que iba a estudiar más de una carrera. 
+  Me recibí de Licenciada en Periodismo en la <abbr title=Universidad Abierta Intearmericana">UAI</abbr> y luego elegí Gestión de Tecnología Informática porque la tecnología atraviesa 
+  cada vez más nuestra vida y la comunicación. Busco complementar mi formación y tener un perfil versátil que integre 
+  distintas áreas.
+</p>
+
+<img src="fiore.jpg" alt="Foto 1" width="1200" height="628">
+
+<p style="font-size:20px;"> Aprender algo nuevo siempre me transforma.<br> Como dijo Albert Einstein: <q>La mente que se abre a una nueva idea jamás volverá a su tamaño original</q>, y eso es exactamente lo que siento cada vez que me enfrento a un nuevo aprendizaje.</p>
+
+<p style="color:blue; font-size:18px;">
+  <strong>Además, soy Profesora Superior de Danza Jazz, y en mis tiempos libres, disfruto de mirar películas, leer 
+  y juntarme con mis amigos.</strong>
+
+   <!-- LISTA METAS ACADÉMICAS Y LABORALES -->
+  <h2 style="background-color:#BA55D3; padding:15px;">
+  Mis metas académicas y laborales
+</h2>
+  <ol style="display: flex; flex-direction: column; align-items: center; padding-left: 0;">
+  <li style="font-size:20px; margin: 5px 0;">Aprender a manejar todas las herramientas necesarias.</li>
+  <li style="font-size:20px; margin: 5px 0;">Desempeñarme en un trabajo que valore creatividad.</li>
+  <li style="font-size:20px; margin: 5px 0;">Colaborar en iniciativas que unan tecnología e ingenio.</li>
+</ol>
+
+  <!-- LISTA PELIS FAVORITAS -->
+  <h2 style="background-color:#BA55D3; padding:15px;">
+    Mis películas favoritas</h2>
+  <ul style="list-style-position: inside; display: flex; flex-direction: column; align-items: center; padding-left: 0;">
+  <li style="font-size:20px; margin: 5px 0;"><cite>Django sin cadenas</cite> de Quentin Tarantino.</li>
+  <li style="font-size:20px; margin: 5px 0;"><cite>13 going on 30</cite> de Gary Winick.</li>
+  <li style="font-size:20px; margin: 5px 0;"><cite>Everything Everywhere All at Once</cite> de Daniel Scheinert y Dan Kwan.</li>
+</ul>
+<img src="Peliculas.jpg" alt="Películas favoritas" width="1200" height="628">
+
+  <!-- LOS ENLACES -->
+  <h2 style="background-color:#BA55D3; padding:15px;"> Enlaces importantes</h2>
+  <p style="font-size:20px;">
+    <a href="https://www.linkedin.com/in/fiorella-lorenzo-3846a5249/" target="_blank">Visitar LinkedIN</a><br>
+    <a href="mailto:fiorellalorenzo@icloud.com">Enviar un correo electrónico</a><br>
+    <a href="https://youtube.com/shorts/dxOWotckUf4?si=3iIwOE7BpQlcr5mP" target="_blank">Abrir mensaje (para que el profe tenga en cuenta) en otra pestaña</a>
+  </p>
+ <!-- FORMULARIO DE CONTACTO -->
+  <h2 style="background-color:#DDA0DD; padding:10px;">Formulario de contacto</h2>
+  <form action="#" method="post" style="text-align: left; max-width: 500px; margin: 0 auto; font-size: 18px;">
+    
+    <!-- Campo para que el usuario ingrese su nombre -->
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required style="width: 100%; padding: 8px; margin: 5px 0;"><br>
+    
+    <!-- Campo para que el usuario ingrese su mail -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Tu email" required style="width: 100%; padding: 8px; margin: 5px 0;"><br>
+    
+    <!-- Campo para que el usuario haga un comentario -->
+    <label for="comentario">Comentario:</label><br>
+    <textarea id="comentario" name="comentario" rows="5" placeholder="Escribe tu comentario aquí..." required style="width: 100%; padding: 8px; margin: 5px 0;"></textarea><br>
+    
+    <!-- Botón de envío que el usuario debe oprimir -->
+    <button type="submit" style="background-color:DarkOrchid; color:white; padding:10px 20px; border:none; cursor:pointer; font-size:18px;">Enviar</button>
+  </form>
+ </div>
+</body>
+</html>
